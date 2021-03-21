@@ -13,7 +13,11 @@ const thoughtController = {
     // add thought to user
     addThought({ params, body }, res) {
         console.log(body);
-        Thought.create(body)
+        Thought.create({
+            thoughtText: body.thoughtText,
+            username: body.username,
+            userId: params.userId
+        })
             .then(({ _id }) => {
                 return User.findOneAndUpdate(
                     { _id: params.userId },
