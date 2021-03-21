@@ -24,7 +24,7 @@ A REST API for a social network using NoSQL methods. Users can sign up, share th
 <br />
 
 ## Usage
-Click here for a demo video: [Demo](https://thawing-scrubland-77713.herokuapp.com/)
+Click here for a demo video: [Demo](https://drive.google.com/file/d/1yV5yBssoNHByqcTaKe8OuRU0l7vTEQfw/view)
 - The user should run `npm start` to deploy the server
   - The API can be used with API test clients such as Insomia Core or Postman
 
